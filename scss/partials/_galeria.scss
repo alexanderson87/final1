@@ -1,0 +1,50 @@
+.grid-contain {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(450px, 1fr));
+    grid-auto-rows: minmax(200px, auto);
+    gap: 10px;
+    padding: 10px;
+    grid-auto-flow: dense;
+    border-radius: 0.5px;
+    .grid-item1{
+        background-image: url(../img/cafe0.avif);
+       border-radius: 10px;
+        
+    }
+    .grid-item2{
+        background-image: url(../img/cafe1.jpg);
+        border-radius: 10px;
+    }
+  
+    .grid-item3{
+      background-image: url(../img/cafe2.jpg); 
+      border-radius: 10px;
+  }
+  
+  .grid-item4{
+      background-image: url(../img/cafe3.jpg);
+      border-radius: 10px;
+     
+  }
+  
+  .grid-item5{
+      background-image: url(../img/cafe4.jpg);
+      border-radius: 10px;
+  }
+  
+  .grid-item6{
+      background-image: url(../img/cafemelfi.jpg);
+      border-radius: 10px;
+  }
+  
+  .grid-item7{
+      background-image: url(../img/g1.jpg);
+      border-radius: 10px;
+  }
+  
+  .grid-item8{
+      background-image: url(../img/g5.jpg);
+      border-radius: 11px;
+  }
+  
+  }

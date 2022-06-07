@@ -1,0 +1,78 @@
+@import"./partials/variables";
+@import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
+@import "./partials/header";
+@import"./partials/galeria";
+@import"./partials/cuerpo";
+@import"./partials/footer";
+@import"./partials/contacto";
+
+
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  height: 100%;
+}
+
+body {
+  font-family: "Public Sans", sans-serif;
+  font-size: 1.2rem;
+  min-height: 100%;
+  background-color: chartreuse;
+
+}
+
+.grid-container > * {
+  box-shadow: -1px 1px 7px 0px rgba(0, 0, 0, 0.75);
+  border-radius: 4px;
+  padding: 10px;
+  text-align: center;
+}
+
+
+
+.contacto-titulo{
+  font-size: 100px;
+  font-family: 'Bellefair', serif;
+  font-weight: 400;
+  margin-bottom: 70px;
+  text-transform: uppercase;
+}
+    
+    
+    
+    
+
+
+
+.grid-container {
+  display: grid;
+  grid-template:
+    "encabezado"  200px
+    "cuerpo"    auto
+    "footer"  auto;
+}
+
+@media (min-width: 600px) {
+  .grid-container {
+    grid-template:
+      "encabezado encabezado" 200px
+      "cuerpo cuerpo"   auto
+      "footer  footer" auto
+      
+  }
+}
+
+@media (min-width: 900px) {
+  .grid-container {
+    grid-template:
+      "encabezado encabezado encabezado"  200px
+      "cuerpo cuerpo cuerpo"  auto
+      "footer  footer footer"  auto /
+      200px  auto   200px;
+  }
+}
+
