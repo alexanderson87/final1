@@ -1,4 +1,4 @@
-@import"./partials/variables";
+@import"./base/variables";
 @import url("https://fonts.googleapis.com/css2?family=Public+Sans&display=swap");
 @import "./partials/header";
 @import"./partials/galeria";
@@ -6,6 +6,7 @@
 @import"./partials/footer";
 @import"./partials/contacto";
 @import"./partials/franquicias";
+@import"./partials/nuestro-cafe";
 
 
 *{
@@ -32,16 +33,6 @@ body {
   padding: 10px;
   text-align: center;
 }
-
-
-
-
-    
-    
-    
-    
-
-
 
 .grid-container {
   display: grid;
@@ -71,3 +62,15 @@ body {
   }
 }
 
+.titulo{
+  padding: 2rem;
+}
+
+.nuestro{
+  width: 90%;
+  background-color: black;
+}
+
+.lorem{
+  padding: 2rem;
+}
