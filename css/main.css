@@ -69,11 +69,12 @@
     justify-content: space-between;
     max-width: 100%;
     margin: auto;
-    margin-top: 10px; }
+    margin-top: 50px;
+    gap: 1rem; }
     .footer .container__footer .box__footer {
       display: flex;
       flex-direction: column;
-      padding: 20px; }
+      padding: 5px; }
       .footer .container__footer .box__footer .logo img {
         width: 180px; }
         .footer .container__footer .box__footer .logo img .img-logo {
@@ -85,7 +86,7 @@
         color: white;
         font-size: 18px; }
       .footer .container__footer .box__footer h2 {
-        margin-bottom: 30px;
+        margin-bottom: 50px;
         color: white;
         font-weight: 700; }
       .footer .container__footer .box__footer a {
@@ -103,11 +104,11 @@
     padding: 0px 40px; }
   .footer p {
     margin-top: 20px;
-    color: #7a7a7a; }
+    color: white; }
   .footer hr {
     border: none;
     height: 1px;
-    background-color: #7a7a7a; }
+    background-color: white; }
 
 .contacto {
   display: flex;
@@ -171,19 +172,36 @@
         .contacto .contacto-principal .contacto-forma-contenedor .contacto-boton-enviar hover, .contacto .contacto-principal .contacto__input-line .contacto-boton-enviar hover {
           background-color: #2e2e2e; }
 
-.franquicia {
+franquicia {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: center;
   gap: 0.5rem; }
-  .franquicia .franquicia-img {
+  franquicia franquicia-img {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    padding: rem;
-    width: 450px;
-    height: 300px; }
+    margin-bottom: 1rem;
+    width: 100%;
+    height: 100px;
+    gap: 2rem; }
+  franquicia franquicia-1 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 2rem; }
+    franquicia franquicia-1 img-franq-2 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      width: 300px;
+      height: 400px;
+      margin-top: 1px;
+      margin-bottom: 5rem;
+      border-radius: 10px; }
 
 .nuestro {
   width: 90%;
@@ -215,7 +233,7 @@ body {
 
 @media (min-width: 600px) {
   .grid-container {
-    grid-template: "encabezado encabezado" 200px "cuerpo cuerpo"   auto "footer  footer" auto; } }
+    grid-template: "encabezado encabezado" 400px "cuerpo cuerpo"   auto "footer  footer" auto; } }
 
 @media (min-width: 900px) {
   .grid-container {
@@ -225,25 +243,45 @@ body {
   padding: 2rem; }
 
 .lorem {
-  padding: 2rem; }
-
-.img-franq {
-  width: 350px;
-  height: 300px; }
+  padding: 5rem; }
 
 .franquicia-1 {
+  margin: 10px;
+  height: 500px;
   display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 1rem; }
+  flex-direction: row; }
 
-.img-franq-2 {
+.franq-1 {
+  margin: 10px;
+  width: 50%;
+  height: 480px;
+  text-align: end; }
+
+.franquicia-2 {
+  margin: 10px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  width: 300px;
-  height: 400px;
-  margin-top: 5rem;
-  margin-bottom: 5rem;
+  margin-bottom: 10px;
+  margin-top: 100px;
+  justify-content: center; }
+
+.franq-2 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 270px;
+  height: 450px;
+  margin: 20px;
   border-radius: 10px; }
+
+.franquicia-3 {
+  margin: 10px;
+  height: 500px;
+  display: flex;
+  flex-direction: row; }
+
+.franq-3 {
+  margin: 10px;
+  width: 50%;
+  height: 480px; }

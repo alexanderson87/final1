@@ -7,12 +7,13 @@
         justify-content: space-between;
         max-width: 100%;
         margin: auto;
-        margin-top: 10px;
+        margin-top: 50px;
+        gap: 1rem;
 
         .box__footer{
             display: flex;
             flex-direction: column;
-            padding: 20px;
+            padding: 5px;
              .logo img{
                 width: 180px;
                 .img-logo{
@@ -28,7 +29,7 @@
             }
              
             h2{
-                margin-bottom: 30px;
+                margin-bottom: 50px;
                 color:white;
                 font-weight: 700;
             }
@@ -55,13 +56,13 @@
     
      p{
         margin-top: 20px;
-        color: #7a7a7a;
+        color:white;
     }
     
      hr{
         border: none;
         height: 1px;
-        background-color: #7a7a7a;
+        background-color: white;
     } 
 
   }
