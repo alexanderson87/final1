@@ -1,7 +1,12 @@
 .cuerpo {
     grid-area: cuerpo;
     background-color: $color-principal;
-    
+    .carrusel{
+        height: 400px;
+        width: 100%;
+        margin-top: 1rem;
+        margin-bottom: 2rem;
+       }
     .fotos{
         display: flex;
         flex-wrap: wrap;
