@@ -2,4 +2,24 @@
     grid-area: encabezado;
     background-color: rgba(245, 245, 245, 0.779);
     width: 100%;
+    .navegacion{
+      display: flex;
+      flex-direction: row;
+      padding: 20px;
+      font-family: "cafes";
+      .home{
+        margin-left: 300px;
+        display: flex;
+        justify-content: space-between;
+        background-color:  rgba(245, 245, 245, 0.366);
+        
+       
+      
+      }
+      
+    }
+    
+    
+
+
   }

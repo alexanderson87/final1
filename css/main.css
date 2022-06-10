@@ -3,6 +3,16 @@
   grid-area: encabezado;
   background-color: rgba(245, 245, 245, 0.779);
   width: 100%; }
+  .encabezado .navegacion {
+    display: flex;
+    flex-direction: row;
+    padding: 20px;
+    font-family: "cafes"; }
+    .encabezado .navegacion .home {
+      margin-left: 300px;
+      display: flex;
+      justify-content: space-between;
+      background-color: rgba(245, 245, 245, 0.366); }
 
 .grid-contain {
   display: grid;
@@ -50,14 +60,15 @@
   .cuerpo .fotos {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center; }
+    justify-content: center;
+    margin: 10px; }
     .cuerpo .fotos .fotos1 {
       display: flex;
       flex-wrap: wrap;
       padding: 0.5rem;
-      margin: 0.5rem;
+      margin: rem;
       height: 400px;
-      width: 45%;
+      width: 450px;
       border-radius: 20px; }
 
 .footer {
@@ -92,11 +103,12 @@
       .footer .container__footer .box__footer a {
         margin-top: 10px;
         color: white;
-        font-weight: 600; }
-      .footer .container__footer .box__footer a:hover {
-        opacity: 0.8; }
-      .footer .container__footer .box__footer a .fab {
-        font-size: 20px; }
+        font-weight: 600px;
+        font-family: "cafes"; }
+        .footer .container__footer .box__footer a a:hover {
+          opacity: 0.8; }
+        .footer .container__footer .box__footer a a .fab {
+          font-size: 20px; }
   .footer .box-derechos {
     max-width: 1200px;
     margin: auto;
@@ -214,6 +226,10 @@
   width: 90%;
   border-radius: 50px; }
 
+@font-face {
+  font-family: "cafes";
+  src: url(../fonts/white_and_black.zip); }
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -247,17 +263,12 @@ body {
     grid-template: "encabezado encabezado encabezado"  200px "cuerpo cuerpo cuerpo"  auto "footer  footer footer"  auto / 200px  auto   200px; } }
 
 .titulo {
-  padding: 2rem; }
+  padding: 2rem;
+  font-family: "cafes"; }
 
 .lorem {
-  padding: 5rem; }
+  padding: 5rem;
+  font-family: "cafes"; }
 
-.navegacion {
-  display: flex;
-  flex-direction: row;
-  padding: 20px; }
-
-.home {
-  margin-left: 300px;
-  display: flex;
-  justify-content: space-between; }
+h2 {
+  font-family: "cafes"; }

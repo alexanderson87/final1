@@ -5,6 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
+     <!--link de libreria aos-->
+     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
     <!--palabras claves-->
     <meta name="keywords" content="cafe,home,buenos aires,melfi,variedad">
 
@@ -52,15 +56,12 @@
                 <a class="nav-link active" aria-current="page" href="./page/nuestro-cafe.html">NUESTRO CAFE</a>
               </li>
             
-            
             </ul>
          
-            
           </div>
         </div>
       </nav>
 
-      
     </header>
    
 
@@ -110,34 +111,31 @@
             Conocé la colección de productos más vendidos</p>
 
             <div class="fotos">
-            
-              <img src="./img/mar1.webp" alt="" class="fotos1">
-              <img src="./img/mar2.webp" alt="" class="fotos1">
-              <img src="./img/mar3.webp" alt="" class="fotos1">
-              <img src="./img/mar4.webp" alt="" class="fotos1">
+              <img data-aos="zoom-in-down"src="./img/mar1.webp" alt="" class="fotos1">
+              <img data-aos="zoom-in-left"src="./img/mar2.webp" alt="" class="fotos1">
+              </div>
+
+              <div class="fotos">
+                <img data-aos="zoom-in-down"src="./img/mar3.webp" alt="" class="fotos1">
+                <img data-aos="zoom-in-left"src="./img/mar4.webp" alt="" class="fotos1">
+
+              </div>
+           
             </div>
         </section>
 
         <h3>
-
           <P class="lorem">
             Especiales pensadas para vos
   
             ¡Disfrutá café molido, café en grano, alfajores y conitos!
           </P>
-
-
         </h3>
-
-        
-
-
-        
-      
-
 
     </main>
 
+
+          <!--pie de pagina-->
 
     <footer class="footer">
 
@@ -200,7 +198,12 @@
   </footer>
 
 
+        <!--link de libreria aos java-->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+       <script>
+       AOS.init();
+       </script>
 
 
 

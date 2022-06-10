@@ -36,15 +36,16 @@
             a{
                 margin-top: 10px;
                 color: white;
-                font-weight: 600;
-            }
-             a:hover{
-                opacity: 0.8;
+                font-weight: 600px;
+                font-family: "cafes";
+                a:hover{
+                    opacity: 0.8;
+                }
+                a .fab{
+                    font-size: 20px;
+                }
             }
             
-             a .fab{
-                font-size: 20px;
-            }
         }
     }
     .box-derechos{
