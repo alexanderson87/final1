@@ -1,6 +1,7 @@
 .cuerpo {
     grid-area: cuerpo;
     background-color: $color-principal;
+    margin-top: auto;
     .carrusel{
         height: 400px;
         width: 100%;
@@ -9,18 +10,35 @@
        }
     .fotos{
         display: flex;
+        flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        margin: 10px;
-    
+        gap: 20px;
+        width: 100%;
+       
+        
+       
         .fotos1{
-            display: flex;
-            flex-wrap: wrap;
-            padding: 0.5rem;
-            margin: rem;
-            height: 400px;
-            width: 450px;
+            height: 500px;
+            width: 600px;
             border-radius: 20px;
+            
         }
     }
-  }
+
+    .fotos-1{
+        display: flex;
+        margin-top: 100px;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 20px;
+        .fotos2{
+            border-radius: 20px;
+            width: 400px;
+        }
+       }
+       }
+       
+       
+    
+  
