@@ -1,7 +1,7 @@
 .cuerpo {
     grid-area: cuerpo;
     background-color: $color-principal;
-    margin-top: auto;
+  
     .carrusel{
         height: 400px;
         width: 100%;
@@ -13,7 +13,7 @@
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
-        gap: 5px;
+        gap: 20px;
        
        
         .fotos1{

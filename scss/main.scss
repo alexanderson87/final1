@@ -58,8 +58,8 @@ body {
     grid-template:
       "header header header" 150px
       "cuerpo cuerpo cuerpo"  auto
-      "footer  footer footer"  auto/
-               700px ;
+      "footer  footer footer"  auto
+          "1fr 1fr 1fr"      ;
   }
 }
 
@@ -102,7 +102,15 @@ h2{
   }
 
 
+@media(min-width:350px){
+  .encabezado{
+    
+  }
+  
+}
 
+  
+  
 
 
 
